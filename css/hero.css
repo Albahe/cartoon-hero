@@ -3,6 +3,8 @@ body{
 	margin: 0px;
 	padding-top: 20px;
 	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
 }
 
 header{
@@ -38,4 +40,39 @@ main {
 
 main img {
 	max-width: 800px;
+}
+
+h2{
+	font-size: 35px;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: navy;
+}
+
+a:hover{
+	color: magenta;
+}
+
+footer{
+	background-color: #1d1d1d;
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a {
+	color: white;
+}
+
+p.caption{
+	color: #4b4b4b;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 0;
 }
