@@ -7,6 +7,8 @@ body{
 	line-height: auto;
 }
 
+/* header styles */
+
 header{
 	background-color: yellow;
 	text-align: center;
@@ -14,19 +16,22 @@ header{
 	padding-bottom: 10px;
 }
 
-h1, h2{
-	font-family: "Pixelify Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
+h1{
+	font-family: "Fuzzy Bubbles", sans-serif;
+	font-weight: 700;
 	font-style: normal;
-	margin: 20px;
+	margin: 0px;
+	color: black;
+	font-size: 60px;
+	padding-top: 5px;
 }
 
-/* header styles */
-
-header h1{
-	color: black;
-	font-size: 50px;
+header p{
+	font-weight: bold;
+	text-transform:;
+	margin: 0;
+	padding-bottom: 20px;
+	font-variant: small-caps;
 }
 
 header img{
@@ -35,20 +40,25 @@ header img{
 	border: 10px solid white;e
 }
 
+/* body style */
+
+h2{
+	font-family: "Fuzzy Bubbles", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 44px;
+	margin: 50px 0 0px;
+}
+
 main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
-main img {
+main img{
 	max-width: 800px;
 	width: 100%;
-}
-
-h2{
-	font-size: 35px;
-	margin: 40px 0 10px;
 }
 
 p.caption{
@@ -86,14 +96,14 @@ p.caption{
 	font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
 	color: whitesmoke;
-	background-color: mediumvioletred;
+	background-color: darkblue;
 	border: none;
 	box-shadow: 7px 6px 9px rgba(4, 0, 2, 0.2);
 }
 
 .image-box button:hover{
 	background-color: magenta;
-	color: yellow;
+	color: white;
 	box-shadow: 7px 6px 9px rgba(4, 0, 2, 0.0)
 }
 
