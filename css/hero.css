@@ -68,6 +68,16 @@ p.caption{
 	margin-top: 0;
 }
 
+ol{
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.list-text{
+	font-weight: normal;
+	background-color: yellow;
+}
+
 .container{
 	display: flex;
 	justify-content: space-around;
@@ -99,6 +109,8 @@ p.caption{
 	background-color: darkblue;
 	border: none;
 	box-shadow: 7px 6px 9px rgba(4, 0, 2, 0.2);
+	cursor: pointer;
+	transition: background-color 0.15s, box-shadow 0.15s;
 }
 
 .image-box button:hover{
@@ -107,8 +119,13 @@ p.caption{
 	box-shadow: 7px 6px 9px rgba(4, 0, 2, 0.0)
 }
 
+.image-box button:active{
+	background-color: yellow;
+	color: magenta;
+}
+
 footer{
-	background-color: #1d1d1d;
+	background-color: darkblue;
 	color: white;
 	text-align: center;
 	padding: 40px;
@@ -120,4 +137,17 @@ footer p{
 
 footer a {
 	color: white;
+	text-decoration-color: transparent;
+	cursor: pointer;
+	transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+footer a:hover{
+	text-decoration-color: magenta;
+	color: magenta;
+}
+
+footer a:active{
+	text-decoration-color: yellow;
+	color: yellow;
 }
